@@ -6,6 +6,28 @@
     roxo
     preto
     Azul
-/*
+*/
 
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(238, 203, 209);
+}
 
+main{
+    padding: 50px;
+    margin: 50px;
+    border-radius: 2px;
+}
+
+section{
+    
+}
+
+div#formulario{
+    background-color: white;
+
+}
+
+form{
+    
+}
