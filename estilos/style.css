@@ -10,16 +10,21 @@
 
 *{
     font-family: Arial, Helvetica, sans-serif;
+    
+    
 }
 
 body, html{
-    background-image: linear-gradient(to top, rgb(231, 178, 187), rgb(248, 201, 209) );
+    background-image: linear-gradient(pink, blue);
+    height: 100%;
 }
 
 
 
 h1{
     text-align: center;
+    padding: 5px;
+    
 }
 main{
     padding: 50px;
@@ -27,7 +32,8 @@ main{
     border-radius: 20px;
     background-color: white;
     text-align: center;
-    
+    display: block;
+
 }
 
 section{
@@ -35,7 +41,7 @@ section{
 }
 
 div#formulario{
-    background-color: white;
+    text-align: left;
 
 }
 
