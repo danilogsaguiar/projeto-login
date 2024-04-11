@@ -28,6 +28,7 @@ body, html{
 h1{
     text-align: center;
     padding: 5px;
+    margin: 10px;
     
 }
 main{
@@ -72,6 +73,8 @@ div#formulario{
 
 }
 
-form{
+div#formulario > p{
+    font-size: 0.8em;
+
     
 }
