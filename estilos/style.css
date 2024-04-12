@@ -86,11 +86,39 @@ form > div.campo {
     height: 40px;
     border-radius: 5px;
     margin: 5px 0px;
+    border: 2px;
 }
 
 div.campo > label {
     display: none;
 
+}
+
+div.campo > input:focus-within{
+    background-color: white;
+    
+
+}
+
+div.campo > i {
+    color: white;
+    background-color: rgb(202, 163, 163);
+    font-size: 2em;
+    width: 40px;
+    padding: 4px;
+    border-radius: 2px;
+  
+}
+
+div.campo > input{
+    background-color: rgb(235, 210, 214);
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-10px);
 }
 
 form > input {
